@@ -5,7 +5,13 @@
 
 /* Countdown */
 .count{
-    @apply bg-blue-700 text-white p-1 text-center text-sm rounded;
+    @apply bg-blue-900 text-white p-1 text-center text-sm rounded font-bold;
+}
+
+/* Class Expired JS */
+
+.expired{
+    @apply font-bold font-lora text-2xl w-96;
 }
 
 @tailwind utilities;
