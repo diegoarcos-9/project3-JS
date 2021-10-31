@@ -611,6 +611,20 @@ video {
   }
 }
 
+/* Countdown */
+
+.count{
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(29, 78, 216, var(--tw-bg-opacity));
+  padding: 0.25rem;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
